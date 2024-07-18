@@ -17,12 +17,17 @@ body {
 .container {
     width: 70%;
     /* width: 1440px; */
-    margin: 4rem auto;
+    margin: 3rem auto;
 }
+
 
 /* Shared styles */
 .display-flex {
     display: flex;
+}
+
+.margin-bottom {
+    margin-bottom: 100px;
 }
 
 /* Button styles */
@@ -176,6 +181,38 @@ body {
     height: 439px;
 }
 
+/* Change Your Habits styles */
+.habits-image {
+    max-width: 50%;
+height: 274px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    text-align: center;
+    gap: 1rem;
+}
+
+.habits-image img {
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+.habits-image p {
+    width: 230px;
+    color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+}
+
+#rules {
+    color: rgb(255, 255, 255);
+font-size: 1.12rem;
+font-weight: 600;
+margin-bottom: 6px;
+}
+
+
 /* Run extra mile styles */
 .run-container {
     /* width: 1060px; */
@@ -217,7 +254,7 @@ body {
 .bmi-title-sec {
     max-width: 660px;
     /* height: 120px; */
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .bmi-title-sec h3 {
@@ -225,6 +262,7 @@ body {
     font-size: 48px;
     font-weight: 900;
     text-align: left;
+    margin-bottom: 14px;
 }
 
 .bmi-title-sec p {
@@ -292,7 +330,7 @@ th {
 }
 
 .primary-color {
-    width: 262.5px;
+    width: 275.5px;
     height: 48px;
     border-radius: 8px;
     border: none;
@@ -307,7 +345,7 @@ th {
 }
 
 #width {
-    width: 532px;
+    width: 97%;
 }
 
 .bmi-menu-btn {
