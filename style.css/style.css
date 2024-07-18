@@ -16,6 +16,7 @@ body {
 /* Default styles */
 .container {
     width: 70%;
+    /* width: 1440px; */
     margin: 4rem auto;
 }
 
@@ -205,6 +206,114 @@ body {
     margin-bottom: 34px;
 }
 
+
+/* BMI calculator styles */
+.bmi-content {
+    width: 100%;
+    height: 490px;
+    background: rgb(34, 34, 34);
+}
+
+.bmi-title-sec {
+    max-width: 660px;
+    /* height: 120px; */
+    text-align: justify;
+}
+
+.bmi-title-sec h3 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.bmi-title-sec p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 15px;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+th {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.bmi-content {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bmi-table h5 {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 52px;
+}
+
+.bmi-menu {
+    width: 577px;
+    height: 386px;
+}
+
+.bmi-menu h5 {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-top: 23px;
+    margin-bottom: 14px;
+}
+
+.bmi-menu p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.primary-color {
+    width: 262.5px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    padding: 10px;
+    margin: .5rem .1rem;
+}
+
+#width {
+    width: 532px;
+}
+
+.bmi-menu-btn {
+    margin-top: 15px;
+}
+
 /* Our team styles */
 .our-team-content {
     width: 671px;
@@ -348,7 +457,7 @@ body {
 
 .copy-right {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
