@@ -182,9 +182,16 @@ body {
 }
 
 /* Change Your Habits styles */
+.habits-container {
+    /* border: 2px solid red; */
+    width: 1044px;
+height: 550px;
+margin: 0 auto;
+}
+
 .habits-image {
-    max-width: 50%;
-height: 274px;
+    /* max-width: 50%; */
+/* height: 274px; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
