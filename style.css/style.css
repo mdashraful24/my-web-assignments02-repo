@@ -30,6 +30,17 @@ body {
     margin-bottom: 100px;
 }
 
+.ham-burger {
+    color: rgb(255, 255, 255);
+    /* width: 18px; */
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+
 /* Button styles */
 .btn-primary {
     width: 214px;
@@ -83,13 +94,25 @@ body {
     right: 220px;
 }
 
-#number {
-    font-size: 24px;
+#number-1 {
+    font-size: 1.5rem;
     font-weight: 900;
     line-height: 24px;
 }
 
-#content {
+#number-2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+#content-1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#content-2 {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -185,13 +208,13 @@ body {
 .habits-container {
     /* border: 2px solid red; */
     width: 1044px;
-height: 550px;
-margin: 0 auto;
+    height: 550px;
+    margin: 0 auto;
 }
 
 .habits-image {
     /* max-width: 50%; */
-/* height: 274px; */
+    /* height: 274px; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
@@ -207,16 +230,16 @@ margin: 0 auto;
 .habits-image p {
     width: 230px;
     color: rgba(255, 255, 255, 0.5);
-font-size: 14px;
-font-weight: 400;
-line-height: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
 }
 
 #rules {
     color: rgb(255, 255, 255);
-font-size: 1.12rem;
-font-weight: 600;
-margin-bottom: 6px;
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin-bottom: 6px;
 }
 
 
@@ -512,5 +535,166 @@ th {
 
 /* Small device responsive media query */
 @media screen and (max-width: 576px) {
-        
+
+    /* Navbar & Banner styles */
+    .container {
+        width: 80%;
+    }
+
+    .ham-burger {
+        display: block;
+        font-size: 2rem;
+    }
+
+    .nav-options {
+        display: none;
+    }
+
+    .fitness-container {
+        flex-direction: column;
+    }
+
+    .fitness-content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .fitness-content h3,
+    .span-italic {
+        font-size: 3rem;
+        font-weight: 100%;
+        width: 285px;
+        height: 129px;
+        margin-bottom: 75px;
+    }
+
+    .fitness-content p {
+        width: 75%;
+        height: 96px;
+        margin-bottom: 30px;
+    }
+
+    .btn-primary {
+        margin-left: 5px;
+        margin-bottom: 50px;
+    }
+
+    .fitness-image img {
+        width: 100%;
+    }
+
+    .btn-1st {
+        left: 17%;
+        bottom: -14%;
+    }
+
+    .btn-2nd {
+        right: 13%;
+        bottom: 13%;
+    }
+
+    #number-1 {
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    #content-1 {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    /* Habits styles */
+    .habits-image {
+        grid-template-columns: 1fr;
+    }
+
+    .habits-container {
+        height: auto;
+        margin-top: -50px;
+    }
+
+    #rules {
+        margin: 0 auto;
+    }
+
+    .habits-image p {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    /* Run styles */
+    .run-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .run-content {
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .our-team-content h3 {
+        font-size: 40px;
+    }
+
+    .run-content p {
+        margin-bottom: 20px;
+    }
+
+    .run-content button {
+        width: 100%;
+    }
+
+    /* BMI calculator styles */
+    .bmi-content {
+        flex-direction: column;
+    }
+
+    .bmi-content {
+        width: 100%;
+        height: 100%;
+        background: rgb(34, 34, 34);
+    }
+
+    .bmi-container {
+        margin-bottom: 20%;
+    }
+
+    .bmi-menu {
+        width: 564px;
+        height: 395px;
+    }
+
+    .bmi-table h5 {
+        margin-bottom: 20px;
+    }
+
+    /* Meet our team styles */
+    .our-teams {
+        grid-template-columns: 1fr;
+        /* width: 100%; */
+        /* height: 100%; */
+    }
+
+    .our-team-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Footer styles */
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        margin-bottom: 30px;
+    }
+
+    .foot-con-2 h5 {
+        margin-top: 30px;
+    }
+
+    .footer-section hr {
+        margin-top: 70px;
+    }
 }
