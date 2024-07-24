@@ -16,7 +16,6 @@ body {
 /* Default styles */
 .container {
     width: 70%;
-    /* width: 1440px; */
     margin: 3rem auto;
 }
 
@@ -32,7 +31,6 @@ body {
 
 .ham-burger {
     color: rgb(255, 255, 255);
-    /* width: 18px; */
     display: none;
 }
 
@@ -172,10 +170,8 @@ body {
 
 /* Banner styles */
 .fitness-container {
-    /* border: 2px solid red; */
     justify-content: space-between;
     align-items: center;
-    /* gap: 87px; */
 }
 
 .fitness-container h3 {
@@ -206,15 +202,12 @@ body {
 
 /* Change Your Habits styles */
 .habits-container {
-    /* border: 2px solid red; */
     width: 1044px;
     height: 550px;
     margin: 0 auto;
 }
 
 .habits-image {
-    /* max-width: 50%; */
-    /* height: 274px; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
@@ -245,7 +238,6 @@ body {
 
 /* Run extra mile styles */
 .run-container {
-    /* width: 1060px; */
     height: 371px;
     justify-content: space-between;
     align-items: center;
@@ -277,7 +269,6 @@ body {
 
 /* Unique styles */
 .unique-container {
-    /* border: 2px solid red; */
     width: 1140px;
     height: 1610px;
     margin: 0 auto;
@@ -305,7 +296,6 @@ body {
 
 
 .unique-content {
-    /* border: 2px solid blue; */
     width: 946px;
     margin-top: 40px;
     margin-left: 97px;
@@ -347,7 +337,6 @@ body {
 }
 
 .pri-unique-section {
-    /* border: 2px solid red; */
     width: 946px;
     height: 336px;
     border-radius: 16px;
@@ -359,12 +348,10 @@ body {
 }
 
 .one-left-side {
-    /* border: 2px solid red; */
     width: 50%;
 }
 
 .one-right-side {
-    /* border: 2px solid red; */
     width: 50%;
 }
 
@@ -387,8 +374,6 @@ body {
 
 .bmi-title-sec {
     max-width: 660px;
-    /* height: 120px; */
-    /* text-align: justify; */
 }
 
 .bmi-title-sec h3 {
@@ -451,7 +436,7 @@ th {
     font-size: 1.75rem;
     font-weight: 900;
     margin-top: 23px;
-    margin-bottom: 14px;
+    margin-bottom: 8px;
 }
 
 .bmi-menu p {
@@ -479,7 +464,7 @@ th {
 }
 
 #width {
-    width: 98%;
+    width: 97%;
 }
 
 .bmi-menu-btn {
@@ -501,7 +486,6 @@ th {
 }
 
 .our-team-content p {
-    /* height: 120px; */
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
@@ -511,7 +495,6 @@ th {
 
 .our-teams {
     width: 1060px;
-    /* height: 604px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 20px;
@@ -535,7 +518,6 @@ th {
     height: 272px;
     filter: brightness(85%);
     border-radius: 18px;
-    /* margin: 0 0; */
 }
 
 .our-team-members {
@@ -688,6 +670,7 @@ th {
     }
 
     .btn-1st {
+        width: 180px;
         left: 10%;
         bottom: -10%;
     }
@@ -755,19 +738,16 @@ th {
 
     /*  Unique starts */
     .unique-container {
-        /* border: 1px solid red; */
         width: 80%;
         height: 100%;
     }
 
     .unique-content {
-        /* border: 2px solid blue; */
         width: 78%;
         margin: 40px 50px 40px 50px;
     }
 
     .unique-section-contents {
-        /* border: 2px solid blue; */
         text-align: left;
         margin: 10px;
     }
@@ -795,12 +775,10 @@ th {
     }
 
     .one-left-side {
-        /* border: 2px solid red; */
         width: 300px;
     }
 
     .one-right-side {
-        /* border: 2px solid red; */
         width: 300px;
     }
 
@@ -843,7 +821,8 @@ th {
         margin-bottom: 20px;
     }
 
-    .bmi-menu, .bmi-table {
+    .bmi-menu,
+    .bmi-table {
         width: 80%;
         height: 100%;
         margin-top: 20px;
@@ -852,7 +831,6 @@ th {
 
     .bmi-menu-contents {
         width: 80%;
-        /* margin: 20px; */
     }
 
     .size-1,
@@ -867,8 +845,6 @@ th {
     /* Meet our team styles */
     .our-teams {
         grid-template-columns: 1fr;
-        /* width: 100%; */
-        /* height: 100%; */
     }
 
     .our-team-content {
