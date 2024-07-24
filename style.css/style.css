@@ -76,8 +76,8 @@ body {
     border: none;
     color: rgb(250, 250, 249);
     position: absolute;
-    bottom: 220px;
-    right: 550px;
+    bottom: 28%;
+    left: 62%;
 }
 
 .btn-2nd {
@@ -90,7 +90,7 @@ body {
     border: none;
     color: rgb(250, 250, 249);
     position: absolute;
-    bottom: 530px;
+    bottom: 61%;
     right: 220px;
 }
 
@@ -252,6 +252,7 @@ body {
     padding: 30px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
+    margin-bottom: 50px;
 }
 
 .run-content {
@@ -271,6 +272,109 @@ body {
     font-weight: 400;
     margin-top: 14px;
     margin-bottom: 34px;
+}
+
+
+/* Unique styles */
+.unique-container {
+    /* border: 2px solid red; */
+    width: 1140px;
+    height: 1610px;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+
+.unique-section-contents {
+    text-align: center;
+}
+
+.unique-section-contents h3 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.unique-section-contents p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.unique-content {
+    /* border: 2px solid blue; */
+    width: 946px;
+    margin-top: 40px;
+    margin-left: 97px;
+    margin-right: 97px;
+    margin-bottom: 80px;
+}
+
+.unique-h3 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.unique-p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.unique-button {
+    width: 150px;
+    height: 48px;
+    background-color: rgb(181, 180, 180);
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px 12px 20px;
+}
+
+.unique-img {
+    width: 90%;
+    height: 280px;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+.pri-unique-section {
+    /* border: 2px solid red; */
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(34, 34, 34), rgba(255, 255, 255, 0) 100%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.one-left-side {
+    /* border: 2px solid red; */
+    width: 50%;
+}
+
+.one-right-side {
+    /* border: 2px solid red; */
+    width: 50%;
+}
+
+.gap {
+    margin-bottom: 20px;
+}
+
+.unique-container a {
+    color: rgb(20, 19, 19);
+    text-decoration: none;
 }
 
 
@@ -334,12 +438,12 @@ th {
     color: rgb(255, 255, 255);
     font-size: 1.75rem;
     font-weight: 900;
-    margin-bottom: 52px;
+    margin-bottom: 80px;
 }
 
 .bmi-menu {
     width: 577px;
-    height: 386px;
+    height: 420px;
 }
 
 .bmi-menu h5 {
@@ -375,7 +479,7 @@ th {
 }
 
 #width {
-    width: 97%;
+    width: 98%;
 }
 
 .bmi-menu-btn {
@@ -543,7 +647,7 @@ th {
 
     .ham-burger {
         display: block;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .nav-options {
@@ -584,13 +688,13 @@ th {
     }
 
     .btn-1st {
-        left: 17%;
-        bottom: -14%;
+        left: 10%;
+        bottom: -10%;
     }
 
     .btn-2nd {
         right: 13%;
-        bottom: 13%;
+        bottom: 16%;
     }
 
     #number-1 {
@@ -645,14 +749,78 @@ th {
         width: 100%;
     }
 
-    /* BMI calculator styles */
-    .bmi-content {
+    .run-container img {
+        width: 100%;
+    }
+
+    /*  Unique starts */
+    .unique-container {
+        /* border: 1px solid red; */
+        width: 80%;
+        height: 100%;
+    }
+
+    .unique-content {
+        /* border: 2px solid blue; */
+        width: 78%;
+        margin: 40px 50px 40px 50px;
+    }
+
+    .unique-section-contents {
+        /* border: 2px solid blue; */
+        text-align: left;
+        margin: 10px;
+    }
+
+    .unique-section-contents h3 {
+        text-align: center;
+    }
+
+    .unique-section-contents p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .unique-p {
+        width: 100%;
+    }
+
+    .pri-unique-section {
+        width: 100%;
+        height: 100%;
+    }
+
+    .unique-img {
+        width: 100%;
+    }
+
+    .one-left-side {
+        /* border: 2px solid red; */
+        width: 300px;
+    }
+
+    .one-right-side {
+        /* border: 2px solid red; */
+        width: 300px;
+    }
+
+    .flex-direction {
         flex-direction: column;
     }
 
+    .flex-direction-re {
+        flex-direction: column-reverse;
+    }
+
+    .background {
+        background: linear-gradient(90.00deg, rgb(34, 34, 34), rgb(34, 34, 34));
+    }
+
+    /* BMI calculator styles */
     .bmi-content {
         width: 100%;
         height: 100%;
+        flex-direction: column;
         background: rgb(34, 34, 34);
     }
 
@@ -660,13 +828,40 @@ th {
         margin-bottom: 20%;
     }
 
-    .bmi-menu {
-        width: 564px;
-        height: 395px;
+    #bmi-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bmi-title-sec {
+        width: 75%;
+        text-align: center;
     }
 
     .bmi-table h5 {
+        margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .bmi-menu, .bmi-table {
+        width: 80%;
+        height: 100%;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+
+    .bmi-menu-contents {
+        width: 80%;
+        /* margin: 20px; */
+    }
+
+    .size-1,
+    .size-2 {
+        width: 40%;
+    }
+
+    #width {
+        width: 81.5%;
     }
 
     /* Meet our team styles */
