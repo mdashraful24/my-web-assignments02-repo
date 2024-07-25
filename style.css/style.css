@@ -74,7 +74,7 @@ body {
     border: none;
     color: rgb(250, 250, 249);
     position: absolute;
-    bottom: 28%;
+    bottom: 29%;
     left: 62%;
 }
 
@@ -516,7 +516,7 @@ th {
 .our-team-members img {
     width: 100%;
     height: 272px;
-    filter: brightness(85%);
+    filter: brightness(90%);
     border-radius: 18px;
 }
 
@@ -700,10 +700,6 @@ th {
         margin-top: -50px;
     }
 
-    #rules {
-        margin: 0 auto;
-    }
-
     .habits-image p {
         margin: 0 auto;
         margin-bottom: 20px;
@@ -858,7 +854,16 @@ th {
     }
 
     .footer-content {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
+    }
+
+    .footer-content p {
+        width: 75%;
+        text-align: justify;
+    }
+
+    .footer-content-2 h5 {
+        margin-bottom: 25px;
     }
 
     .foot-con-2 h5 {
