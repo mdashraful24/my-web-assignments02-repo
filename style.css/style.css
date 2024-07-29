@@ -29,7 +29,7 @@ body {
     margin-bottom: 100px;
 }
 
-.ham-burger {
+#ham-burger {
     color: rgb(255, 255, 255);
     display: none;
 }
@@ -64,32 +64,30 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.btn-1st {
-    width: 206px;
-    height: 96px;
+.fitness-image {
+    position: relative;
+}
+
+.btn-1st, .btn-2nd {
+    position: absolute;
+    width: 200px;
+    height: 100px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
     background: rgba(48, 48, 48, 0.54);
     border: none;
     color: rgb(250, 250, 249);
-    position: absolute;
-    bottom: 29%;
-    left: 62%;
+}
+
+.btn-1st {
+    bottom: 12%;
+    left: -20%;
 }
 
 .btn-2nd {
-    width: 193px;
-    height: 98px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 12px;
-    backdrop-filter: blur(5px);
-    background: rgba(48, 48, 48, 0.54);
-    border: none;
-    color: rgb(250, 250, 249);
-    position: absolute;
     bottom: 61%;
-    right: 220px;
+    right: -20%;
 }
 
 #number-1 {
@@ -627,7 +625,8 @@ th {
         width: 80%;
     }
 
-    .ham-burger {
+    #ham-burger {
+        color: rgb(255, 255, 255);
         display: block;
         font-size: 1.8rem;
     }
@@ -670,14 +669,13 @@ th {
     }
 
     .btn-1st {
-        width: 180px;
-        left: 10%;
-        bottom: -10%;
+        bottom: 43%;
+        left: -15%;
     }
-
+    
     .btn-2nd {
-        right: 13%;
-        bottom: 16%;
+        bottom: 80%;
+        right: -15%;
     }
 
     #number-1 {
@@ -717,7 +715,7 @@ th {
     }
 
     .our-team-content h3 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .run-content p {
@@ -805,6 +803,7 @@ th {
     #bmi-title {
         width: 100%;
         text-align: center;
+        font-size: 2.5rem;
     }
 
     .bmi-title-sec {
@@ -857,13 +856,22 @@ th {
         margin-bottom: 50px;
     }
 
+    .footer-content h3 {
+        font-size: 50px;
+    }
+
     .footer-content p {
         width: 75%;
         text-align: justify;
     }
 
     .footer-content-2 h5 {
+        font-size: 25px;
         margin-bottom: 25px;
+    }
+
+    .footer-content-2 p {
+        font-size: 20px;
     }
 
     .foot-con-2 h5 {
@@ -872,5 +880,10 @@ th {
 
     .footer-section hr {
         margin-top: 70px;
+    }
+
+    /* Shared styles */
+    #pri-title {
+        font-size: 2.5rem;
     }
 }
