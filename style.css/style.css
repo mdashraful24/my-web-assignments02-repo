@@ -15,7 +15,7 @@ body {
 
 /* Default styles */
 .container {
-    width: 70%;
+    max-width: 70%;
     margin: 3rem auto;
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 .margin-bottom {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 #ham-burger {
@@ -50,6 +50,7 @@ body {
     font-weight: 600;
     color: rgb(255, 255, 255);
     margin-right: 14px;
+    cursor: pointer;
 }
 
 .btn-secondary {
@@ -62,27 +63,30 @@ body {
     font-size: 18px;
     font-weight: 600;
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 .fitness-image {
     position: relative;
 }
 
-.btn-1st, .btn-2nd {
+.btn-1st,
+.btn-2nd {
     position: absolute;
-    width: 200px;
-    height: 100px;
+    width: 180px;
+    height: 85px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(5px);
     background: rgba(48, 48, 48, 0.54);
     border: none;
     color: rgb(250, 250, 249);
+    cursor: pointer;
 }
 
 .btn-1st {
     bottom: 12%;
-    left: -20%;
+    left: -24%;
 }
 
 .btn-2nd {
@@ -90,28 +94,42 @@ body {
     right: -20%;
 }
 
+.circle {
+    position: absolute;
+    background-color: rgb(230, 83, 60);
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    margin-top: 10px;
+    left: 13%;
+}
+
 #number-1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 900;
-    line-height: 24px;
+    margin-left: 20px;
 }
 
 #number-2 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight: 900;
-    line-height: 24px;
+    margin-right: 53px;
 }
 
 #content-1 {
-    font-size: 16px;
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 30px;
+    margin-left: 50px;
 }
 
 #content-2 {
-    font-size: 16px;
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 20px;
 }
 
 /* Color styles */
@@ -124,7 +142,7 @@ body {
 }
 
 .header-container {
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.8) 0%, rgba(19, 19, 24, 0) 100%);
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.8) 70%, rgba(19, 19, 24, 0) 100%);
 }
 
 /* Nav-bar styles */
@@ -153,8 +171,9 @@ body {
 
 .nav-options .nav-1st-option {
     font-weight: 400;
-    font-size: 1.12rem;
+    font-size: 1.1rem;
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 .nav-options button {
@@ -233,7 +252,6 @@ body {
     margin-bottom: 6px;
 }
 
-
 /* Run extra mile styles */
 .run-container {
     height: 371px;
@@ -242,11 +260,11 @@ body {
     padding: 30px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .run-content {
-    width: 443px;
+    max-width: 443px;
     height: 290px;
 }
 
@@ -264,10 +282,9 @@ body {
     margin-bottom: 34px;
 }
 
-
 /* Unique styles */
 .unique-container {
-    width: 1140px;
+    max-width: 1140px;
     height: 1610px;
     margin: 0 auto;
     border-radius: 16px;
@@ -292,9 +309,8 @@ body {
     line-height: 24px;
 }
 
-
 .unique-content {
-    width: 946px;
+    max-width: 946px;
     margin-top: 40px;
     margin-left: 97px;
     margin-right: 97px;
@@ -319,12 +335,20 @@ body {
 .unique-button {
     width: 150px;
     height: 48px;
-    background-color: rgb(181, 180, 180);
-    font-size: 14px;
+    /* background-color: rgb(181, 180, 180); */
+    background: rgb(230, 83, 60);
+    font-size: 1rem;
     font-weight: 600;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 12px 20px 12px 20px;
+    cursor: pointer;
+}
+
+.unique-container a {
+    color: rgb(255, 255, 255);
+    /* color: rgb(20, 19, 19); */
+    text-decoration: none;
 }
 
 .unique-img {
@@ -343,12 +367,10 @@ body {
     align-items: center;
     padding: 30px;
     gap: 20px;
+    display: flex;
 }
 
-.one-left-side {
-    width: 50%;
-}
-
+.one-left-side,
 .one-right-side {
     width: 50%;
 }
@@ -356,12 +378,6 @@ body {
 .gap {
     margin-bottom: 20px;
 }
-
-.unique-container a {
-    color: rgb(20, 19, 19);
-    text-decoration: none;
-}
-
 
 /* BMI calculator styles */
 .bmi-content {
@@ -380,6 +396,7 @@ body {
     font-weight: 900;
     text-align: left;
     margin-bottom: 14px;
+    text-align: center;
 }
 
 .bmi-title-sec p {
@@ -387,6 +404,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    text-align: center;
 }
 
 table {
@@ -471,7 +489,7 @@ th {
 
 /* Our team styles */
 .our-team-content {
-    width: 671px;
+    max-width: 671px;
     margin: 0 auto;
     text-align: center;
 }
@@ -492,7 +510,7 @@ th {
 }
 
 .our-teams {
-    width: 1060px;
+    max-width: 1060px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 20px;
@@ -557,8 +575,9 @@ th {
 }
 
 .footer-content {
-    width: 443px;
+    max-width: 443px;
     height: 176px;
+    margin-top: -20px
 }
 
 .footer-content h3 {
@@ -622,7 +641,7 @@ th {
 
     /* Navbar & Banner styles */
     .container {
-        width: 80%;
+        width: 100%;
     }
 
     #ham-burger {
@@ -664,6 +683,15 @@ th {
         margin-bottom: 50px;
     }
 
+    .btn-primary,
+    .btn-secondary {
+        width: 45%;
+    }
+
+    #btn-font {
+        font-size: 1rem;
+    }
+
     .fitness-image img {
         width: 100%;
     }
@@ -672,20 +700,29 @@ th {
         bottom: 43%;
         left: -15%;
     }
-    
+
     .btn-2nd {
         bottom: 80%;
-        right: -15%;
+        right: -10%;
     }
 
-    #number-1 {
-        font-size: 16px;
-        font-weight: 900;
+    .circle {
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        left: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
     }
 
-    #content-1 {
-        font-size: 10px;
-        font-weight: 400;
+    .triangle {
+        border-top: 8px solid transparent;
+        border-left: 15px solid rgb(250, 250, 249);
+        border-bottom: 8px solid transparent;
+        position: relative;
+        left: 5%;
     }
 
     /* Habits styles */
@@ -695,7 +732,7 @@ th {
 
     .habits-container {
         height: auto;
-        margin-top: -50px;
+        margin-top: -10px;
     }
 
     .habits-image p {
@@ -723,22 +760,22 @@ th {
     }
 
     .run-content button {
-        width: 100%;
+        width: 90%;
     }
 
     .run-container img {
         width: 100%;
     }
 
-    /*  Unique starts */
+    /* Unique styles */
     .unique-container {
-        width: 80%;
+        max-width: 900px;
         height: 100%;
     }
 
     .unique-content {
         width: 78%;
-        margin: 40px 50px 40px 50px;
+        /* margin: 40px 50px 40px 50px; */
     }
 
     .unique-section-contents {
@@ -751,21 +788,30 @@ th {
     }
 
     .unique-section-contents p {
-        width: 100%;
+        width: 70%;
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    #break {
+        display: none;
+    }
+
+    .unique-h3,
     .unique-p {
-        width: 100%;
+        width: auto;
     }
 
     .pri-unique-section {
-        width: 100%;
+        width: 90%;
         height: 100%;
+        background: none;
     }
 
     .unique-img {
         width: 100%;
+        padding: 0;
     }
 
     .one-left-side {
@@ -784,8 +830,10 @@ th {
         flex-direction: column-reverse;
     }
 
-    .background {
-        background: linear-gradient(90.00deg, rgb(34, 34, 34), rgb(34, 34, 34));
+    .try {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* BMI calculator styles */
@@ -852,34 +900,20 @@ th {
         flex-direction: column;
     }
 
-    .footer-content {
-        margin-bottom: 50px;
+    .footer-content,
+    .footer-content-2,
+    .footer-content-2.foot-con-2 {
+        margin: 10px 0;
     }
 
-    .footer-content h3 {
-        font-size: 50px;
+    #footer-des {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
-    .footer-content p {
-        width: 75%;
-        text-align: justify;
-    }
-
-    .footer-content-2 h5 {
-        font-size: 25px;
-        margin-bottom: 25px;
-    }
-
-    .footer-content-2 p {
-        font-size: 20px;
-    }
-
-    .foot-con-2 h5 {
-        margin-top: 30px;
-    }
-
-    .footer-section hr {
-        margin-top: 70px;
+    #footer-des-2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     /* Shared styles */
