@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); */
+
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 body {
     font-family: "Inter", sans-serif;
@@ -75,11 +77,11 @@ body {
     position: absolute;
     width: 180px;
     height: 85px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.05);
     border-radius: 12px;
     backdrop-filter: blur(5px);
     background: rgba(48, 48, 48, 0.54);
-    border: none;
+    /* border: none; */
     color: rgb(250, 250, 249);
 }
 
@@ -102,6 +104,16 @@ body {
     border-radius: 50%;
     margin-top: 10px;
     left: 13%;
+}
+
+.triangle {
+    border-top: 8px solid transparent;
+    border-left: 15px solid rgb(250, 250, 249);
+    border-bottom: 8px solid transparent;
+    position: relative;
+    left: 35%;
+    top: 28%;
+    /* display: none; */
 }
 
 #number-1 {
@@ -141,7 +153,7 @@ body {
 }
 
 .header-container {
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.8) 70%, rgba(19, 19, 24, 0) 100%);
+    background: linear-gradient(to bottom, #000000, #3c3c3c9d, #000000);
 }
 
 /* Nav-bar styles */
@@ -204,9 +216,13 @@ body {
 .span-italic {
     font-weight: 400;
     font-size: 4.8rem;
-    font-family: "Dancing Script", cursive;
+    font-family: 'Miama', sans-serif;
+    /* font-family: "Dancing Script", cursive; */
     font-style: italic;
     color: rgb(255, 255, 255);
+    ;
+    line-height: 120%;
+    letter-spacing: 0%;
 }
 
 .fitness-container p {
@@ -238,6 +254,7 @@ body {
 .habits-image img {
     border-radius: 50%;
     margin-bottom: 5%;
+
 }
 
 .habits-image p {
@@ -357,6 +374,7 @@ body {
 .unique-img {
     width: 90%;
     height: 280px;
+    filter: brightness(90%);
     border-radius: 1rem;
     padding: 10px;
 }
@@ -535,7 +553,7 @@ th {
 .our-team-members img {
     width: 100%;
     height: 272px;
-    filter: brightness(90%);
+    filter: brightness(80%);
     border-radius: 18px;
 }
 
@@ -669,16 +687,15 @@ th {
     .fitness-content h3,
     .span-italic {
         font-size: 3rem;
-        font-weight: 100%;
-        width: 285px;
-        height: 129px;
-        margin-bottom: 75px;
+        /* font-weight: 100%; */
+        /* width: 285px; */
+        /* height: 129px; */
+        /* margin-bottom: 75px; */
     }
 
     .fitness-content p {
         width: 75%;
-        height: 96px;
-        margin-bottom: 30px;
+        /* margin-bottom: 40px; */
     }
 
     .btn-primary {
@@ -688,7 +705,7 @@ th {
 
     .btn-primary,
     .btn-secondary {
-        width: 45%;
+        width: 47%;
     }
 
     #btn-font {
@@ -709,7 +726,7 @@ th {
         right: -10%;
     }
 
-    .circle {
+    /* .circle {
         width: 35px;
         height: 35px;
         margin-top: 10px;
@@ -726,6 +743,10 @@ th {
         border-bottom: 8px solid transparent;
         position: relative;
         left: 5%;
+    } */
+
+    .triangle {
+        display: block;
     }
 
     /* Habits styles */
@@ -736,6 +757,10 @@ th {
     .habits-container {
         height: auto;
         margin-top: -10px;
+    }
+
+    .our-team-content p {
+        margin-bottom: 30px;
     }
 
     .habits-image p {
@@ -759,7 +784,7 @@ th {
     }
 
     .run-content p {
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
 
     .run-content button {
@@ -791,10 +816,11 @@ th {
     }
 
     .unique-section-contents p {
-        width: 70%;
+        width: 74%;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        /* border: 1px solid rebeccapurple; */
     }
 
     #break {
@@ -807,9 +833,11 @@ th {
     }
 
     .pri-unique-section {
-        width: 90%;
+        max-width: 80%;
         height: 100%;
-        background: none;
+        background: linear-gradient(90.00deg, rgb(34, 34, 34), rgba(255, 255, 255, 0.1) 100%);
+        /* border: 1px solid rebeccapurple; */
+
     }
 
     .unique-img {
@@ -847,10 +875,6 @@ th {
         background: rgb(34, 34, 34);
     }
 
-    .bmi-container {
-        margin-bottom: 20%;
-    }
-
     #bmi-title {
         width: 100%;
         text-align: center;
@@ -875,8 +899,12 @@ th {
         margin-left: 80px;
     }
 
+    .bmi-table h5 {
+        width: 70%;
+    }
+
     .bmi-menu-contents {
-        width: 80%;
+        width: 70%;
     }
 
     .size-1,
@@ -903,7 +931,6 @@ th {
         flex-direction: column;
     }
 
-    .footer-content,
     .footer-content-2,
     .footer-content-2.foot-con-2 {
         margin: 10px 0;
@@ -917,6 +944,10 @@ th {
     #footer-des-2 {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .footer-content h3 {
+        font-size: 4rem;
     }
 
     /* Shared styles */
