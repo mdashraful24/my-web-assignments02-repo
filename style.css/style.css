@@ -166,6 +166,10 @@ body {
     gap: 2.9rem;
 }
 
+.nav-options p {
+    cursor: pointer;
+}
+
 .nav-name-col {
     color: rgb(230, 83, 60);
     font-weight: 800;
@@ -268,6 +272,7 @@ body {
 
 /* Run extra mile styles */
 .run-container {
+    max-width: 1100px;
     height: 371px;
     justify-content: space-between;
     align-items: center;
@@ -427,6 +432,7 @@ body {
 
 table {
     border-collapse: collapse;
+    margin-top: 30px;
 }
 
 td,
@@ -457,7 +463,7 @@ th {
     color: rgb(255, 255, 255);
     font-size: 1.75rem;
     font-weight: 900;
-    margin-bottom: 80px;
+    margin-top: -68px;
 }
 
 .bmi-menu {
@@ -665,7 +671,6 @@ th {
 
     .header-container,
     .habits-container {
-        /* border: 1px solid red; */
         margin-bottom: 60px;
     }
 
@@ -736,11 +741,6 @@ th {
 
     .habits-container {
         height: auto;
-        /* margin-top: -10px; */
-    }
-
-    .our-team-content p {
-        margin-bottom: 30px;
     }
 
     .habits-image p {
@@ -752,6 +752,7 @@ th {
     .run-container {
         flex-direction: column;
         height: auto;
+        width: 90%;
     }
 
     .run-content {
@@ -772,12 +773,6 @@ th {
     }
 
     /* Unique styles */
-    .unique-container {
-        /* border: 1px solid red; */
-        /* margin: 0; */
-        /* padding: 0 1rem; */
-    }
-
     .unique-section-contents p {
         width: 80%;
         margin: 0 auto;
@@ -824,15 +819,13 @@ th {
     }
 
     /* BMI calculator styles */
-    .bmi-container {
-        /* border: 1px solid red; */
-    }
-
     .bmi-content {
-        /* width: 90%; */
+        width: 90%;
         height: 100%;
         flex-direction: column;
         background: rgb(34, 34, 34);
+        margin: 0 auto;
+        border-radius: 1rem;
     }
 
     #bmi-title {
@@ -847,6 +840,7 @@ th {
     }
 
     .bmi-table h5 {
+        width: 75%;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -864,10 +858,6 @@ th {
         margin-left: 80px;
     }
 
-    .bmi-table h5 {
-        width: 70%;
-    }
-
     .bmi-menu-contents {
         width: 70%;
     }
@@ -882,10 +872,6 @@ th {
     }
 
     /* Meet our team styles */
-    .our-team-container {
-        /* border: 1px solid red; */
-    }
-
     .our-teams {
         grid-template-columns: 1fr;
     }
@@ -896,10 +882,6 @@ th {
     }
 
     /* Footer styles */
-    .footer-section {
-        /* border: 1px solid red; */
-    }
-
     .footer-container {
         flex-direction: column;
     }
