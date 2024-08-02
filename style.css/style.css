@@ -401,6 +401,86 @@ body {
 }
 
 
+/* Training styles */
+.training-container {
+    width: 1060px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.training-content {
+    width: 671px;
+    margin-bottom: 40px;
+}
+
+.training-content h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.training-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.training-img img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    filter: brightness(0.8);
+}
+
+.row-primary {
+    display: grid;
+    /* gap: 1rem; */
+}
+
+.row-1 {
+    grid-template-columns: 0.45fr 0.90fr 0.60fr;
+}
+
+.row-2 {
+    grid-template-columns: 0.65fr 0.45fr 0.60fr;
+}
+
+#card-primary {
+    color: rgba(255, 0, 0, 0.888);
+    font-size: 1.4rem;
+    font-weight: 800;
+    background: rgb(34, 34, 34);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.exercise-card {
+    position: relative;
+}
+
+.primary-position {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+
+.img-des-position2 {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.img-des-position4 {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+}
+
+
 /* BMI calculator styles */
 .bmi-content {
     width: 100%;
@@ -410,6 +490,7 @@ body {
 
 .bmi-title-sec {
     max-width: 660px;
+    /* border: 2px solid red; */
 }
 
 .bmi-title-sec h3 {
@@ -418,7 +499,7 @@ body {
     font-weight: 900;
     text-align: left;
     margin-bottom: 14px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .bmi-title-sec p {
@@ -426,7 +507,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 40px;
 }
 
@@ -829,6 +910,47 @@ th {
     .try {
         /* width: 60%; */
         margin: 0 auto;
+    }
+
+    /* Training styles */
+    .training-container {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .training-content {
+        width: 100%;
+    }
+
+    .training-img img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .row-1, .row-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .exercise-card {
+        margin-bottom: 1rem;
+    }
+
+    .primary-position,
+    .img-des-position2,
+    .img-des-position4 {
+        left: 10%;
+        bottom: 10%;
+        top: auto;
+        transform: translateX(-50%);
+    }
+
+    .position-ex {
+        left: 22%;
+    }
+
+    .position-3ex {
+        left: 13%;
     }
 
     /* BMI calculator styles */
