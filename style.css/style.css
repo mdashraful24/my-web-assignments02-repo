@@ -946,11 +946,19 @@ th {
     }
 
     .position-ex {
-        left: 22%;
+        left: 25%;
     }
 
     .position-3ex {
-        left: 13%;
+        left: 15%;
+    }
+
+    .position-4ex {
+        left: 14%;
+    }
+
+    .position-1ex {
+        left: 16%;
     }
 
     /* BMI calculator styles */
