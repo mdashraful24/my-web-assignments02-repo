@@ -28,7 +28,7 @@ body {
 }
 
 .margin-bottom {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 #ham-burger {
@@ -151,8 +151,9 @@ body {
 }
 
 .header-container {
-    margin: 40px auto;
+    margin: 0 auto;
     background: linear-gradient(to bottom, #000000, #3c3c3c9d, #000000);
+    margin-bottom: 60px;
 }
 
 
@@ -160,6 +161,7 @@ body {
 .nav-bar {
     justify-content: space-between;
     align-items: center;
+    margin: 30px auto;
 }
 
 .nav-options {
@@ -238,37 +240,55 @@ body {
 
 /* Change Your Habits styles */
 .habits-container {
-    width: 1044px;
-    height: 550px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.habits-content {
+    width: 671px;
     margin: 0 auto;
+}
+
+.habits-content h3 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.habits-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
 }
 
 .habits-image {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    max-width: 88%;
+    display: flex;
+    justify-content: space-evenly;
     margin: 0 auto;
-    text-align: center;
-    gap: 1rem;
 }
 
-.habits-image img {
+.habit-image-contents img {
     border-radius: 50%;
-    margin-bottom: 5%;
+    margin-bottom: 10px;
 }
 
-.habits-image p {
+#habit-p1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#habit-p2 {
     width: 230px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-}
-
-#rules {
-    color: rgb(255, 255, 255);
-    font-size: 1.12rem;
-    font-weight: 600;
-    margin-bottom: 6px;
 }
 
 
@@ -281,7 +301,7 @@ body {
     padding: 30px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .run-content {
@@ -312,7 +332,7 @@ body {
 .training-container {
     max-width: 1060px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .training-content {
@@ -439,10 +459,11 @@ body {
 
 /* Unique styles */
 .unique-container {
+    /* border: 2px solid red; */
     max-width: 90%;
     padding: 0 1rem;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .unique-section-contents {
@@ -465,8 +486,9 @@ body {
 }
 
 .unique-content {
+    /* border: 2px solid red; */
     max-width: 946px;
-    margin: 40px auto 80px;
+    margin: 0 auto;
     padding: 0 1rem;
 }
 
@@ -765,7 +787,7 @@ th {
 
 .footer-content p {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 0.87rem;
+    font-size: 0.84rem;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
@@ -808,24 +830,21 @@ th {
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-    margin-top: 36px;
+    margin-top: 30px;
 }
 
 
 /* Small device responsive media query */
 @media screen and (max-width: 576px) {
 
-    /* Navbar & Banner styles */
-    .nav-bar {
-        margin-bottom: 40px;
+    .header-container {
+        /* width: 425px; */
+        width: 100%;
     }
 
+    /* Navbar & Banner styles */
     .header-container {
         margin-bottom: 0;
-    }
-
-    .habits-container {
-        margin-bottom: 60px;
     }
 
     #ham-burger {
@@ -853,7 +872,7 @@ th {
     }
 
     .fitness-content p {
-        width: 75%;
+        width: 85%;
     }
 
     .btn-primary {
@@ -874,33 +893,56 @@ th {
         width: 100%;
     }
 
+    .btn-1st,
+    .btn-2nd {
+        width: 160px;
+    }
+
     .btn-1st {
         bottom: 43%;
-        left: -10%;
+        left: -5%;
     }
 
     .btn-2nd {
         bottom: 80%;
-        right: -10%;
+        right: -5%;
+    }
+
+    .circle {
+        left: 8%;
     }
 
     .triangle {
         display: block;
     }
 
-
     /* Habits styles */
-    .habits-image {
-        grid-template-columns: 1fr;
-    }
-
     .habits-container {
-        height: auto;
+        margin-bottom: 30px;
     }
 
-    .habits-image p {
+    .habits-content {
+        width: 100%;
+    }
+
+    .habits-content p {
+        width: 85%;
+        margin: 20px auto;
+    }
+
+    .habits-image {
+        flex-direction: column;
         margin: 0 auto;
-        margin-bottom: 20px;
+        
+    }
+
+    .habit-image-contents {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    #habit-p1 {
+        /* margin-bottom: -5px; */
     }
 
 
@@ -908,6 +950,7 @@ th {
     .run-container {
         flex-direction: column;
         height: auto;
+        /* width: 390px; */
         width: 90%;
     }
 
@@ -921,7 +964,7 @@ th {
     }
 
     .run-content button {
-        width: 90%;
+        width: 100%;
     }
 
     .run-container img {
@@ -940,7 +983,7 @@ th {
 
     /* Unique styles */
     .unique-section-contents p {
-        width: 80%;
+        /* width: 80%; */
         margin: 0 auto;
     }
 
@@ -988,7 +1031,7 @@ th {
     .training-container {
         width: 80%;
         margin: 0 auto;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
 
     .training-content {
@@ -1036,7 +1079,7 @@ th {
     }
 
     .bmi-title-sec p {
-        width: 85%;
+        width: 95%;
         margin: 0 auto;
         margin-bottom: 30px;
     }
@@ -1085,7 +1128,7 @@ th {
     }
 
     .footer-content {
-        margin-bottom: -35px;
+        margin-bottom: -15px;
     }
 
     #footer-des {
@@ -1102,6 +1145,10 @@ th {
         font-size: 4rem;
     }
 
+    .footer-section hr {
+        margin: 20px auto;
+    }
+
     #member-hide-1 {
         display: none;
     }
@@ -1110,9 +1157,14 @@ th {
         display: block;
     }
 
-    
+
     /* Shared styles */
     #pri-title {
         font-size: 2.5rem;
     }
+
+    #single-title {
+        font-size: 2.3rem;
+    }
+
 }
