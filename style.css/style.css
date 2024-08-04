@@ -240,12 +240,15 @@ body {
 
 /* Change Your Habits styles */
 .habits-container {
+    max-width: 1100px;
     text-align: center;
+    margin-bottom: 60px;
+    margin: 0 auto;
     margin-bottom: 60px;
 }
 
 .habits-content {
-    width: 671px;
+    width: 771px;
     margin: 0 auto;
 }
 
@@ -253,7 +256,6 @@ body {
     color: rgb(255, 255, 255);
     font-size: 48px;
     font-weight: 900;
-    margin-bottom: 10px;
 }
 
 .habits-content p {
@@ -261,11 +263,12 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    margin: 15px auto;
     margin-bottom: 30px;
 }
 
 .habits-image {
-    max-width: 88%;
+    /* max-width: 1100px; */
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
@@ -320,7 +323,8 @@ body {
     font-size: 14px;
     font-weight: 400;
     margin-top: 14px;
-    margin-bottom: 34px;
+    margin-bottom: 14px;
+    line-height: 24px;
 }
 
 #run-hide-2 {
@@ -927,22 +931,17 @@ th {
 
     .habits-content p {
         width: 85%;
-        margin: 20px auto;
     }
 
     .habits-image {
         flex-direction: column;
         margin: 0 auto;
-        
+
     }
 
     .habit-image-contents {
         margin: 0 auto;
-        margin-bottom: 30px;
-    }
-
-    #habit-p1 {
-        /* margin-bottom: -5px; */
+        margin-bottom: 35px;
     }
 
 
