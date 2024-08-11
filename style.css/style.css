@@ -152,7 +152,7 @@ body {
 
 .header-container {
     margin: 0 auto;
-    background: linear-gradient(to bottom, #000000, #3c3c3c9d, #000000);
+    background: linear-gradient(to bottom, #212121, #3433339d, #000000);
     margin-bottom: 60px;
 }
 
@@ -161,16 +161,27 @@ body {
 .nav-bar {
     justify-content: space-between;
     align-items: center;
-    margin: 30px auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.nav-bar-name {
+    margin-top: 30px;
 }
 
 .nav-options {
     justify-content: space-evenly;
+    align-items: center;
     gap: 2.9rem;
+    margin-top: 35px;
 }
 
 .nav-options p {
     cursor: pointer;
+}
+
+#margin-right {
+    margin-right: 10px;
 }
 
 .nav-name-col {
@@ -181,9 +192,12 @@ body {
 }
 
 .nav-options {
+    color: rgb(255, 255, 255);
     font-weight: 400;
     font-size: 1.12rem;
-    color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
 }
 
 .nav-options .nav-1st-option {
@@ -199,7 +213,6 @@ body {
     border: none;
     border-radius: 46px;
     background: rgb(230, 83, 60);
-    margin-top: -3px;
 }
 
 
@@ -883,13 +896,14 @@ select {
     }
 
     .nav-bar {
-        margin: 35px auto 50px auto;
+        margin: 0 auto 50px auto;
     }
 
     #ham-burger {
         color: rgb(255, 255, 255);
         display: block;
         font-size: 1.8rem;
+        margin-top: 30px;
     }
 
     .nav-options {
@@ -924,8 +938,8 @@ select {
         margin-bottom: 40px;
     }
 
-    #btn-font {
-        font-size: 1rem;
+    #small-show {
+        display: none;
     }
 
     .fitness-image img {
