@@ -152,7 +152,7 @@ body {
 
 .header-container {
     margin: 0 auto;
-    background: linear-gradient(to bottom, #212121, #3433339d, #000000);
+    background: linear-gradient(to bottom, #141414, #3938389d, #070707);
     margin-bottom: 60px;
 }
 
@@ -645,7 +645,7 @@ th {
     color: rgb(255, 255, 255);
     font-size: 1.75rem;
     font-weight: 900;
-    margin-top: -68px;
+    margin-top: -35px;
 }
 
 .bmi-menu {
