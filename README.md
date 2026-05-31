@@ -47,33 +47,10 @@ fitness-website/
 ├── index.html
 ├── style.css/
 │   └── style.css
-├── images/
-│   ├── exercise1.jpg
-│   ├── exercise2.png
-│   ├── exercise3.png
-│   ├── exercise4.png
-│   ├── exercise5.jpg
-│   ├── exercise6.jpg
-│   ├── image1.png
-│   ├── image2.png
-│   ├── image3.png
-│   ├── image4.png
-│   ├── images-1.png
-│   ├── run.jpg
-│   ├── runing2.jpg
-│   ├── trainer1.png
-│   ├── trainer2.png
-│   ├── trainer3.png
-│   ├── trainer4.png
-│   ├── trainer5.png
-│   ├── trainer6.png
-│   ├── yoga1.png
-│   ├── yoga2.png
-│   ├── yoga3.png
-│   └── yoga4.png
+├── images
 └── README.md
 ```
 
 ## Live Demo
 
-You can view the live demo of the website [here](#) (https://mdashraful24.github.io/my-web-assignments02-repo/).
+You can view the live demo of the website [Fitness](https://mdashraful24.github.io/my-web-assignments02-repo/)
